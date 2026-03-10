@@ -1,0 +1,35 @@
+{
+  "name": "coin-life",
+  "version": "1.0.0",
+  "description": "一个基于Web的加密货币交易模拟游戏，体验7天的币圈生活",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "dev": "npx live-server ."
+  },
+  "keywords": [
+    "game",
+    "cryptocurrency",
+    "trading",
+    "simulation",
+    "web-game",
+    "pixel-art",
+    "bitcoin",
+    "blockchain"
+  ],
+  "author": "Coin Life Team",
+  "license": "MIT",
+  "homepage": "https://github.com/yourusername/coin-life",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/coin-life.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/coin-life/issues"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  }
+}
